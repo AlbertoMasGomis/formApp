@@ -10,6 +10,10 @@ const routes: Routes = [
         path: 'sign-up',
         component: RegisterPageComponent,
       },
+      {
+        path: '**',
+        redirectTo: 'sign-up',
+      },
     ],
   },
 ];

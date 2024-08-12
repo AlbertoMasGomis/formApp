@@ -13,7 +13,7 @@ const routes: Routes = [
         component: BasicPageComponent,
       },
       {
-        path: 'dinamyc',
+        path: 'dynamic',
         component: DinamycPageComponent,
       },
       {
